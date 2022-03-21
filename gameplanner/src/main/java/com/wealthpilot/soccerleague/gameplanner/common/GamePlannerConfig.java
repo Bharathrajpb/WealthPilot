@@ -11,7 +11,7 @@ public class GamePlannerConfig {
 	
 	@Bean
 	public SoccerLeague getSoccerLeague() {
-		return GamePlanUtil.generatePojo();
+		return GamePlanUtil.generatePojo1(SoccerLeague.class);
 		
 	}
 }
